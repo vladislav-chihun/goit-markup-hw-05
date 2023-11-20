@@ -678,10 +678,12 @@ color:#2E2F42;
 }
 .review-field-text-input {
  padding: 8px 16px;
-letter-spacing: 0.48px;
-width: 360px;
-height: 120px;
-resize: none;
+  letter-spacing: 0.48px;
+  width: 360px;
+  height: 120px;
+  resize: none;
+  line-height: 1.17;
+  color: rgba(46, 47, 66, 0.4);
 }
 .review-field-text-input::placeholder {
   color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
@@ -828,4 +830,6 @@ text-decoration-line: underline;
   background-color: var(--OCEAN, #404BBF);
   border: none;
 }
-.
+.checkbox-div {
+  margin-bottom: 24px;
+}
