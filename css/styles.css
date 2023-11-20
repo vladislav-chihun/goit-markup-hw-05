@@ -631,7 +631,6 @@ letter-spacing: 0.02em;
 margin-bottom: 16px;
 width: 360px;
 text-align: center;
-margin-bottom: 8px;
 color:#2E2F42;
 }
 .review-form-wrapper {
@@ -699,6 +698,7 @@ line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
 margin-bottom: 16px;
 display: inline-block;
+margin-bottom: 8px;
 }
 .footer-field-sub {
   width: 264px;
