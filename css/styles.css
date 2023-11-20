@@ -791,8 +791,8 @@ margin-bottom: 8px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .review-form-button:hover,
 .review-form-button:focus {
