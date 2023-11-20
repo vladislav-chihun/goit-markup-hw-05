@@ -645,8 +645,9 @@ color:#2E2F42;
 }
 .review-form-label {
   margin-bottom: 4px; 
-   line-height: 1.17;
-   margin-bottom: 4px;
+  line-height: 1.17;
+  display: block;
+  margin-bottom: 4px;
 }
 .review-field {
   width: 100%;
