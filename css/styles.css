@@ -601,6 +601,8 @@ margin: 24px 100px;
   height: 24px;
   border: 1px solid #0000001A;
   line-height: 0;
+  align-items: center;
+  justify-content: center;
   right: 24px;
   top: 24px;
   cursor:pointer;
