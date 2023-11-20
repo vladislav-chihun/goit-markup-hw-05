@@ -596,6 +596,7 @@ margin: 24px 100px;
   position: absolute;
   padding: 0;
   display: flex;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 24px;
   background-color: #E7E9FC;
   height: 24px;
@@ -606,7 +607,7 @@ margin: 24px 100px;
   right: 24px;
   top: 24px;
   cursor:pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .modal-cancel-button-icon:hover,
 .modal-cancel-button-icon:focus .modal-cancel-icon {
