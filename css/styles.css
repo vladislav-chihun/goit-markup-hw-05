@@ -643,7 +643,7 @@ color:#2E2F42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .review-form-label {
-  margin-bottom: 8px;
+  margin-bottom: 4px;
   line-height: 1.17;
   display: block;
 }
