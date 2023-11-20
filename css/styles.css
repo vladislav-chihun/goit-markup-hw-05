@@ -785,7 +785,6 @@ margin-bottom: 8px;
   color: #FFFFFF;
   margin-top: 24px;
   margin-left: 95px;
-  display: flex;
   cursor: pointer;
   letter-spacing: 0.04em;
   font-weight: 500;
@@ -793,6 +792,9 @@ margin-bottom: 8px;
   line-height: 1.5;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   justify-content: center;
+  display: block; 
+  min-width: 169px;
+  height: 56px;
 }
 .review-form-button:hover,
 .review-form-button:focus {
