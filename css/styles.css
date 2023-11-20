@@ -742,11 +742,18 @@ color:#2E2F42;
 .footer-email-input {
   width: 264px;
   height: 40px;
+  border: 1px solid #ffffff;
   background-color: transparent;
-  border-radius: 4px;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px; 
+  padding-left: 16px;
   border: 1px solid var(--WHITE, #FFF);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .footer-email-input::placeholder {
   padding-left: 16px;
