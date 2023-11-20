@@ -618,6 +618,7 @@ margin: 24px 100px;
 .modal-cancel-button-icon:hover,
 .modal-cancel-button-icon:focus {
   background-color: #404BBF;
+  border: none;
 }
 .modal-cancel-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
