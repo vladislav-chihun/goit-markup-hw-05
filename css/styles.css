@@ -640,7 +640,7 @@ color:#2E2F42;
   display: block;
   font-weight: 400;
   letter-spacing: 0.48px;
-  margin-bottom: 16px
+  margin-bottom: 8px
   line-height: 1.17;
   color: var(--LIGHT-SLATE, #8E8F99);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
