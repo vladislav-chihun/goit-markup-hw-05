@@ -841,3 +841,10 @@ text-decoration-line: underline;
 .review-form-wrapper-comment {
   margin-bottom: 16px;
 }
+.footer-email {
+  display: flex;
+  gap:24px;
+}
+.footer-email-label {
+  
+}
