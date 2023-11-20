@@ -612,6 +612,7 @@ margin: 24px 100px;
 .modal-cancel-button-icon:hover,
 .modal-cancel-button-icon:focus .modal-cancel-icon {
   fill: #FFFFFF;
+  border: none;
 }
 .modal-cancel-button-icon:hover,
 .modal-cancel-button-icon:focus {
