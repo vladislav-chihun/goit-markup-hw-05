@@ -747,7 +747,6 @@ color:#2E2F42;
   height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
-  font-size: 12px;
   line-height: 1.5;
   color: #ffffff;
   letter-spacing: 0.04em;
@@ -756,6 +755,7 @@ color:#2E2F42;
   padding-left: 16px;
   cursor:pointer;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-email-input::placeholder {
@@ -855,6 +855,6 @@ text-decoration-line: underline;
   display: flex;
   gap:24px;
 }
-.footer-email-label {
-  
+.footer-telegram-icon {
+   margin-left: 16px;
 }
