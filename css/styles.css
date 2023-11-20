@@ -777,7 +777,6 @@ margin-bottom: 8px;
 }
 .review-form-button {
   padding: 16px 32px;
-  width: 169px;
   background: var(--IRIS, #4D5AE5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: none;
@@ -790,6 +789,7 @@ margin-bottom: 8px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  min-width: 169px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   justify-content: center;
   display: block; 
@@ -811,9 +811,10 @@ margin-bottom: 8px;
   cursor: pointer;
   justify-content: center;
   align-items: center;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   fill: transparent;
   border-radius: 2px;
-  border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-right: 8px;
 
 }
@@ -824,6 +825,7 @@ font-size: 12px;
 font-weight: 400;
 line-height: 14px; /* 116.667% */
 letter-spacing: 0.48px;
+line-height: 1.17;
 }
 .privacy-policy-link {
   color: var(--IRIS, #4D5AE5);
