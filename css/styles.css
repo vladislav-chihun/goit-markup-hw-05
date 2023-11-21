@@ -98,6 +98,50 @@ body {
   z-index: 99999999999999;
   background-color: #fff;
 }
+.mobile-menu-li {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+}
+.mobile-menu-li-studio {
+  color: #404bbf;
+}
+.mobile-menu-li:active {
+  color: var(--OCEAN, #404bbf);
+}
+.mobile-menu-address-link {
+  color: var(--SLATE, #434455);
+  /* Header 3 */
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+}
+.mobile-menu-address-link:active {
+  color: #404bbf;
+}
+.mobile-social-ul {
+  display: flex;
+}
+.mobile-menu-close-btn {
+}
+
+.mobile-menu-close-btn {
+  border: 1px solid #e7e9fc;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 0;
+  line-height: 0;
+  width: 24px;
+  height: 24px;
+}
+
 /* ====================HEADER MOBILE===================== */
 @media screen and (min-width: 480px) {
   .container {
