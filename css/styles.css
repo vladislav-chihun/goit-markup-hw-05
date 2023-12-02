@@ -106,6 +106,7 @@ body {
 .mobile-menu-li {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 36px;
+
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.72px;
