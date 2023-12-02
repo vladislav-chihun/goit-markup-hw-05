@@ -76,9 +76,12 @@ body {
 }
 .icon-burger-btn {
   border: none;
+  position: absolute;
   background-color: transparent;
   padding: 0;
   line-height: 0;
+  right: 15px;
+  top: 15px;
 }
 .header-div {
   display: flex;
