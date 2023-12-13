@@ -203,9 +203,13 @@ body {
   .icon-burger-btn {
     display: none;
   }
-  .mobile-menu {
+  .mobile-menu-close-btn {
     display: none;
   }
+  .mobile-social-ul {
+    display: none;
+  }
+
   .mobile-menu-address-list {
     display: flex;
   }
