@@ -83,7 +83,11 @@ body {
   padding-top: 17.5px;
   padding-bottom: 17px;
 }
-
+.header-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 @media screen and (max-width: 768px) {
   .container-btn {
     height: 100%;
@@ -189,11 +193,6 @@ body {
     right: 15px;
     top: 15px;
   }
-  .header-div {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
 }
 /* ======================TABLET============================== */
 @media screen and (min-width: 768px) {
@@ -209,8 +208,14 @@ body {
   .mobile-social-ul {
     display: none;
   }
+  .mobile-menu-list {
+    display: none;
+  }
 
-  .mobile-menu-address-list {
+  .mobile-menu-address-li {
+    display: none;
+  }
+  .header-div {
     display: flex;
   }
 }
