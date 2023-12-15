@@ -243,6 +243,13 @@ body {
     right: 15px;
     top: 15px;
   }
+  /* =============MOBILE MODAL WINDOW============= */
+  .modal {
+    max-width: 288px;
+  }
+  .modal-review {
+    max-width: 256px;
+  }
 }
 
 /* ======================MOBILE HERO============================== */
@@ -795,7 +802,7 @@ body {
 .review-field-text-input {
   padding: 8px 16px;
   letter-spacing: 0.48px;
-  width: 360px;
+  width: 408px;
   height: 120px;
   resize: none;
   line-height: 1.17;
@@ -1261,7 +1268,6 @@ body {
 .review-field-text-input {
   padding: 8px 16px;
   letter-spacing: 0.48px;
-  width: 360px;
   height: 120px;
   resize: none;
   line-height: 1.17;
@@ -1639,7 +1645,6 @@ body {
   .review-field-text-input {
     padding: 8px 16px;
     letter-spacing: 0.48px;
-    width: 360px;
     height: 120px;
     resize: none;
     line-height: 1.17;
