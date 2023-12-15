@@ -296,6 +296,7 @@ body {
   margin-top: 96px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 96px;
 }
 .text {
   width: 100%;
@@ -307,7 +308,97 @@ body {
   letter-spacing: 0.32px;
   margin-top: 8px;
 }
-
+/* ===================MOBILE TEAM============================== */
+.team-section {
+  padding-top: 96px;
+  background-color: rgba(244, 244, 253, 1);
+}
+.team-section-title {
+  color: #2e2f42;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.team-list-item {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+  background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  gap: 24px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background: var(--WHITE, #fff);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  min-width: 264px;
+}
+.team-name-position {
+  padding: 32px 0;
+}
+.team-list-item-name {
+  color: #2e2f42;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.team-list-item-text {
+  color: #434455;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.team-icon-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 8px;
+}
+.team-icon {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+.team-icon-link {
+  fill: #f4f4fd;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: var(--IRIS, #4d5ae5);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.team-list {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  width: 264px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 72px;
+}
+.divcontainerteam {
+  min-width: 288px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 /* ======================TABLET/HEADER============================== */
 @media screen and (min-width: 768px) {
   .container {
@@ -426,21 +517,33 @@ body {
   }
 
   /* ===================TABLET DESCR============================== */
-  .descr-section {
-    padding-top: 96px;
-    padding-bottom: 96px;
-  }
-  .flex-smalltitles {
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 0;
-    width: 736px;
-    column-gap: 24px;
-    row-gap: 72px;
-    justify-content: space-between;
-  }
-  .descr-list {
-    width: calc((100% - 24px) / 2);
+  @media screen and (max-width: 1158px) {
+    .descr-section {
+      padding-top: 96px;
+      padding-bottom: 96px;
+    }
+    .flex-smalltitles {
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin: 0;
+      width: 736px;
+      column-gap: 24px;
+      row-gap: 72px;
+      justify-content: space-between;
+    }
+    .descr-list {
+      width: calc((100% - 24px) / 2);
+    }
+
+
+    .team-list-item {
+    
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    gap: 24px; 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   }
   .text {
     font-weight: 500;
@@ -450,11 +553,25 @@ body {
   }
 }
 
+/* ===================TABLET TEAM============================== */
+    .team-list {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      column-gap: 24px;
+
+      row-gap: 64px;
+      justify-content: center;
+      width: 736px;
+      padding-bottom: 102px;
+    }
 /* ===================DESKTOP============================== */
 /* ===================DESKTOP HEADER============================== */
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
   .address-list {
     display: flex;
@@ -526,14 +643,31 @@ body {
   }
   .descr-icons {
     margin: 24px 100px;
+    width: 264px;
+  }
+
+  .descr-section {
+    padding: 120px 0;
   }
   .flex-smalltitles {
     display: flex;
-    gap: 24px;
     flex-direction: row;
+    margin: 0;
+    align-items: center;
+    gap: 24px;
   }
-  .descr-section {
-    padding: 120px 0;
+  .text {
+    font-weight: 400;
+  }
+  .small-titles {
+    color: var(--NAVY-BLUE, #2e2f42);
+    /* Header 3 */
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.4px;
   }
 }
 /* ===================DESKTOP DESCR============================== */
