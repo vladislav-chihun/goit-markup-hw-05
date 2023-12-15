@@ -668,5 +668,11 @@ body {
     line-height: 24px; /* 120% */
     letter-spacing: 0.4px;
   }
+  .team-list {
+     display: flex;
+        flex-wrap: nowrap;
+        width: 1128px;
+        gap: 24px;
+  }
 }
 /* ===================DESKTOP DESCR============================== */
