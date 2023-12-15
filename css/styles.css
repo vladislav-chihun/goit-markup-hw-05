@@ -537,13 +537,13 @@ body {
 
 
     .team-list-item {
-    
-    background-color: #FFFFFF;
-    border-radius: 0px 0px 4px 4px;
-    gap: 24px; 
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    background: var(--WHITE, #FFF);
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+     display: block;
+        background-color: #ffffff;
+        border-radius: 0px 0px 4px 4px;
+        box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+            0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+            0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+        width: 264px;
   }
   .text {
     font-weight: 500;
@@ -554,17 +554,16 @@ body {
 }
 
 /* ===================TABLET TEAM============================== */
-    .team-list {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-      column-gap: 24px;
+.team-list {
+  display: flex;
+  flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 64px;
+        justify-content: center;
+        width: 736px;
+}
 
-      row-gap: 64px;
-      justify-content: center;
-      width: 736px;
-      padding-bottom: 102px;
-    }
 /* ===================DESKTOP============================== */
 /* ===================DESKTOP HEADER============================== */
 @media screen and (min-width: 1158px) {
