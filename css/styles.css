@@ -68,6 +68,9 @@ body {
   padding-top: 72px;
   padding-bottom: 72px;
 }
+.text {
+  font-weight: 500;
+}
 
 /* ====================MOBILE STYLES===================== */
 
@@ -290,8 +293,6 @@ body {
   /* Body Medium */
   font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
   margin-top: 8px;
@@ -388,24 +389,31 @@ body {
     padding-top: 112px;
     padding-bottom: 112px;
   }
+  /* ===================TABLET DESCR============================== */
+  .descr-section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .flex-smalltitles {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+    width: 736px;
+    column-gap: 24px;
+    row-gap: 72px;
+    justify-content: space-between;
+  }
+  .descr-list {
+    width: calc((100% - 24px) / 2);
+  }
+  .text {
+    font-weight: 500;
+  }
+  .small-titles {
+    display: flex;
+  }
 }
-/* ===================TABLET DESCR============================== */
-.descr-section {
-  padding-top: 96px;
-  padding-bottom: 96px;
-}
-.flex-smalltitles {
-  margin: 0;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 24px;
-  justify-content: space-between;
-}
-.descr-list {
-  width: calc((100% - 24px) / 2);
-}
+
 /* ===================DESKTOP============================== */
 /* ===================DESKTOP HEADER============================== */
 @media screen and (min-width: 1158px) {
