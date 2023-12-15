@@ -74,7 +74,16 @@ body {
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
-
+.team-list {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  width: 264px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 264px;
+  padding-bottom: 72px;
+}
 .address-list {
   display: none;
 }
@@ -250,6 +259,7 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+
 .button {
   display: block;
   padding: 16px 32px;
@@ -399,6 +409,152 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+/*=======================MOBILE PORTFOLIO================= */
+.portfolio-section-title {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  margin-bottom: 72px;
+}
+.portfolio-section {
+  padding-top: 100px;
+}
+.portflio-list {
+  display: flex;
+  width: 288px;
+  padding-bottom: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  width: calc((100% - 48px) / 3);
+  gap: 32px;
+}
+.portflio-list-item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 288px;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.portflio-list-item:hover {
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.porflio-products {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.portflio-list-item-name {
+  color: #2e2f42;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+.portflio-list-item-text {
+  color: #434455;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: var(--CLOUD, #f4f4fd);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  padding: 40px 32px;
+  background-color: var(--IRIS, #4d5ae5);
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  height: 100%;
+  padding: 40px 32px;
+}
+.overlay-wrapper {
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portflio-list-item:hover .text-overlay {
+  transform: translateY(0%);
+}
+.portflio-list-item:active {
+}
+/* =======================MOBILE FOOTER====================== */
+.footer-color {
+  background-color: #2e2f42;
+  padding: 98px 0 96px;
+}
+.footer-main-div {
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+}
+.footer-logo {
+  color: #f4f4fd;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16em; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 72px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+.footer-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em; /* 150% */
+  letter-spacing: 0.02em;
+  width: 264px;
+}
+.footer-socialmedia {
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+margin-bottom: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ======================TABLET/HEADER============================== */
 @media screen and (min-width: 768px) {
   .container {
@@ -442,7 +598,6 @@ body {
     line-height: 1.5em; /* 150% */
     letter-spacing: 0.02em;
     color: #2e2f42;
-
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     text-decoration: none;
   }
@@ -534,36 +689,48 @@ body {
     .descr-list {
       width: calc((100% - 24px) / 2);
     }
-
-
     .team-list-item {
-     display: block;
-        background-color: #ffffff;
-        border-radius: 0px 0px 4px 4px;
-        box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-            0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-            0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-        width: 264px;
+      display: block;
+      background-color: #ffffff;
+      border-radius: 0px 0px 4px 4px;
+      box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+        0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+        0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+      width: 264px;
+    }
+    .text {
+      font-weight: 500;
+    }
+    .small-titles {
+      display: flex;
+    }
   }
-  .text {
-    font-weight: 500;
-  }
-  .small-titles {
+
+  /* ===================TABLET TEAM============================== */
+  .team-list {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 64px;
+    justify-content: center;
+    width: 736px;
+    max-width: 736px;
+  }
+
+  /*=====================TABLET PORTFOLIO========================== */
+  .portflio-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+    width: 736px;
+  }
+  .portflio-list-item {
+    margin: 0;
+    width: 356px;
   }
 }
-
-/* ===================TABLET TEAM============================== */
-.team-list {
-  display: flex;
-  flex-direction: row;
-        flex-wrap: wrap;
-        column-gap: 24px;
-        row-gap: 64px;
-        justify-content: center;
-        width: 736px;
-}
-
 /* ===================DESKTOP============================== */
 /* ===================DESKTOP HEADER============================== */
 @media screen and (min-width: 1158px) {
@@ -669,10 +836,15 @@ body {
     letter-spacing: 0.4px;
   }
   .team-list {
-     display: flex;
-        flex-wrap: nowrap;
-        width: 1128px;
-        gap: 24px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1128px;
   }
+ 
+  /* ===================DESKTOP PORTFOLIO============================== */
+ .portflio-list {
+    width: 1158px;
+
+    row-gap: 48px;
+ /* ===================DESKTOP FOOTER============================== */
 }
-/* ===================DESKTOP DESCR============================== */
