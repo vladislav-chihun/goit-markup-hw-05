@@ -487,7 +487,91 @@
         </div>
       </div>
     </footer> 
-     
+     <div class="backdrop">
+      <div class="modal">
+        <button class="modal-cancel-button-icon" type="button">
+          <svg class="modal-cancel-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-cancel"></use>
+          </svg>
+        </button>
+        <p class="modal-review">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="modal-form">
+          <div class="review-form-wrapper">
+            <label class="review-form-label" for="user-name">Name</label>
+            <div class="form-field">
+              <input
+                class="review-field"
+                name="user-name"
+                id="user-name"
+                type="text"
+              />
+              <svg class="modal-icons" width="18" height="24">
+                <use href="./images/icons.svg#icon-user"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="review-form-wrapper">
+            <label class="review-form-label" for="user-phone">Phone</label>
+            <div class="form-field">
+              <input
+                class="review-field"
+                name="user_phone"
+                id="user-phone"
+                type="text"
+              />
+              <svg class="modal-icons" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="review-form-wrapper">
+            <label class="review-form-label" for="user-email">Email</label>
+            <div class="form-field">
+              <input
+                class="review-field"
+                name="user_email"
+                id="user-email"
+                type="text"
+              />
+              <svg class="modal-icons" width="18" height="24">
+                <use href="./images/icons.svg#icon-mail"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="review-form-wrapper review-form-wrapper-comment">
+            <label class="review-form-label" for="user-comment">Comment</label>
+            <textarea
+              class="review-field review-field-text-input"
+              placeholder="Text input"
+              name="user-comment"
+              id="user-comment"
+            ></textarea>
+          </div>
+          <div class="checkbox-div">
+            <input
+              class="review-checkbox visually-hidden"
+              name="user-privacy"
+              type="checkbox"
+              id="user-privacy"
+              required
+              value="true"
+            />
+            <label class="modal-terms" for="user-privacy">
+              <span class="modal-span-svg">
+                <svg class="modal-icon-checkbox" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="" class="privacy-policy-link">Privacy Policy</a>
+            </label>
+          </div>
+          <button class="review-form-button" type="submit">Send</button>
+        </form>
+      </div>
+    </div> 
     <div class="mobile-menu">
       <div class="container container-btn">
         <button class="mobile-menu-close-btn" type="button">
